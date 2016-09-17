@@ -48,9 +48,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="recordButton" destination="SZ9-TM-PQT" id="OtC-fj-MfW"/>
+                        <outlet property="recordButton" destination="SZ9-TM-PQT" id="FZH-oO-WZX"/>
                         <outlet property="recordingLabel" destination="zTz-oe-7vi" id="NLo-Dz-Kh2"/>
-                        <outlet property="stopRecordingButton" destination="v19-Ie-kl9" id="msM-7N-x82"/>
+                        <outlet property="stopRecordingButton" destination="v19-Ie-kl9" id="Uku-c5-tDO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
