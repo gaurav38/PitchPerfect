@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PlaySoundsViewController: UIViewController {
 
@@ -45,7 +46,11 @@ class PlaySoundsViewController: UIViewController {
         stopAudio()
     }
     
-    var recorderAudioURL: NSURL!
+    var recordedAudioURL: NSURL!
+    var audioFile: AVAudioFile!
+    var audioEngine: AVAudioEngine!
+    var audioPlayerNode: AVAudioPlayerNode!
+    var stopTimer: Timer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
