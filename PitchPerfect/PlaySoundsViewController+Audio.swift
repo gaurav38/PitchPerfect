@@ -34,6 +34,8 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
         } catch {
             showAlert(title: Alerts.AudioFileError, message: String(describing: error))
         }
+        let session = AVAudioSession.sharedInstance()
+        try! session.setCategory(AVAudioSessionCategoryPlayback)
         print("Audio has been setup")
     }
     
